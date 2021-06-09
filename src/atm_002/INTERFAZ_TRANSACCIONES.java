@@ -48,6 +48,7 @@ public class INTERFAZ_TRANSACCIONES extends javax.swing.JFrame {
         txt_Campo.setVisible(true);
         jButton_ranura.setVisible(true);
         cambioDeOperacion(CUENTA);
+        atm = new ATM(this);
     }
 
     /**
